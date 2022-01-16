@@ -33,11 +33,11 @@ public class OsDTO implements Serializable {
 		this.id = obj.getId();
 		this.dataAbertura = obj.getDataAbertura();
 		this.dataFechamento = obj.getDataFechamento();
-		this.prioridade = obj.getId();
+		this.prioridade = obj.getPrioridade().getCod();
 		this.observacoes = obj.getObservacoes();
-		this.status = obj.getId();
-		this.tecnico = obj.getId();
-		this.cliente = obj.getId();
+		this.status = obj.getStatus().getCod();
+		this.tecnico = obj.getTecnico().getId();
+		this.cliente = obj.getCliente().getId();
 	}
 
 	public Integer getId() {
