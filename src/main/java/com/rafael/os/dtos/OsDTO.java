@@ -10,6 +10,8 @@ import com.rafael.os.domain.OS;
 import com.rafael.os.domain.enums.Prioridade;
 import com.rafael.os.domain.enums.Status;
 
+
+
 public class OsDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private Integer id;
